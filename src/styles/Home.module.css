@@ -1,0 +1,19 @@
+div.homeContainer {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+div.homeContainer h1.mainDisclaimer {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    line-height: 60px;
+    display: inline-block;
+    margin: 25rem 0 0 4rem;
+}
+
+.homeContainer h1 strong {
+    color: #89023E;
+    font-weight: 400;
+}

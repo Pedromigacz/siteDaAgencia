@@ -1,0 +1,25 @@
+:root {
+    box-sizing: border-box;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    box-sizing: inherit;
+    font-weight: inherit;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+body {
+    height: auto;
+    background: linear-gradient(81.81deg, #040404 13.09%, #0A1C34 248.66%);
+}
