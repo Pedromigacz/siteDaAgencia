@@ -1,0 +1,70 @@
+.skillListContainer {
+    width: 25%;
+    background: #f4f4f4;
+    color: #444;
+    font-family: roboto mono, sans-serif;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 3rem 0;
+}
+
+.skillListContainer h3 {
+    display: inline-block;
+    margin: 1rem 0 0.75rem 1.5rem;
+    font-size: 2rem;
+}
+
+.skillListContainer img {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+.skillListContainer li {
+    margin: 8px 0;
+}
+
+.skillListContainer span {
+    margin: 0 1rem;
+    vertical-align: middle;
+    text-align: justify;
+}
+/* 
+@media(max-width: 1350px) {
+    .skillListContainer h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1100px) {
+    .skillListContainer {
+        font-size: 1rem;
+    }
+    
+    .skillListContainer h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .skillListContainer {
+        font-size: 1.5rem;
+        max-width: 80%;
+        width: 400px;
+    }
+
+    .skillListContainer h3 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 490px) {
+    .skillListContainer {
+        font-size: 1rem;
+    }
+
+    .skillListContainer h3 {
+        font-size: 1.5rem;
+    }
+} */

@@ -1,0 +1,13 @@
+.SkillListsContainer h2 {
+    display: inline-block;
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 8rem 5rem 3rem 5rem;
+}
+
+.genericFlexContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
