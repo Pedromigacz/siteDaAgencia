@@ -3,7 +3,8 @@ import '../styles/global.css'
 import {
   Home,
   AboutUs,
-  SkillListsContainer
+  SkillListsContainer,
+  Footer
 } from '../components'
 
 const IndexPage = () => (
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <Home />
     <AboutUs />
     <SkillListsContainer />
+    <Footer />
   </div>
 )
 

@@ -1,0 +1,26 @@
+.footerContainer {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    background: #444;
+    color: #eee;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 12px;
+}
+
+.footerContainer span {
+    margin: 0 4rem;
+    line-height: 1.25rem;
+}
+
+.footerContainer a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media(max-width: 930px) {
+    .footerContainer span {
+        display: block;
+    }
+}

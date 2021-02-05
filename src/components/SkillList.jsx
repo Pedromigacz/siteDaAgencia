@@ -9,7 +9,7 @@ const SkillList = ({ title, content: { skillList } }) => (
             const image = {...s.icon[0]}
             return (
                 <li key={s.id}>
-                    <img src={(process.env.GATSBY_BACKEND_URL || 'http://localhost:1337') + image.url} alt={''} />
+                    <img src={(process.env.GATSBY_STRAPI_URL || 'http://localhost:1337') + image.url} alt={''} />
                     <span>{s.skill}</span>
                 </li>
             )
