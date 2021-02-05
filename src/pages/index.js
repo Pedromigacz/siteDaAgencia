@@ -4,11 +4,13 @@ import {
   Home,
   AboutUs,
   SkillListsContainer,
-  Footer
+  Footer,
+  Navbar
 } from '../components'
 
 const IndexPage = () => (
   <div>
+    <Navbar />
     <Home />
     <AboutUs />
     <SkillListsContainer />

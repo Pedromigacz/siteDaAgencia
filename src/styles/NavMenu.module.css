@@ -1,0 +1,80 @@
+nav div.menuContainer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 5rem;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+nav div.menuContainer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav div.menuContainer ul li {
+    display: inline-block;
+    width: max-content;
+}
+
+/* Icon */
+
+.burguerMenu {
+    background: transparent;
+    border: none;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.burguerBar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.burguerBar::before,
+.burguerBar::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+
+.burguerBar::before {
+    transform: translateY(-12px)
+}
+
+.burguerBar::after {
+    transform: translateY(12px)
+}
+
+/* Animation */
+
+.burguerMenu.open .burguerBar {
+    transform: translateX(-30px);
+    background-color: transparent;
+}
+
+.burguerMenu.open .burguerBar::before {
+    transform: rotate(45deg) translate(21px, -21px);
+}
+
+.burguerMenu.open .burguerBar::after {
+    transform: rotate(-45deg) translate(21px, 21px);
+}

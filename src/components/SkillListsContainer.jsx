@@ -41,7 +41,7 @@ const SkillListsContainer = () => {
 
 
     return (
-    <div className={styles.SkillListsContainer}>
+    <div className={styles.SkillListsContainer} id="tech">
         <h2>Trabalhamos com as mais modernas tecnologias:</h2>
         <div className={styles.genericFlexContainer}>
             <SkillList title="Back-end:" content={backend}/>

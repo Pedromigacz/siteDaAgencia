@@ -1,0 +1,61 @@
+nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    min-height: 5.25rem;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+nav.navbar a img.logo {
+    vertical-align: top;
+    margin: 2rem 2rem 1rem 2rem;
+    width: 19rem;
+    cursor: pointer;
+}
+
+/* NAVBAR CONTENT STYLES */
+nav.navbar ul {
+    display: inline-flex;
+    margin: 0 auto;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+nav.navbar ul li {
+    display: inline-block;
+    margin: 1.25rem;
+    cursor: pointer;
+}
+
+/* SCROLLDOWN INDICATOR STYLES */
+
+.scrollDownIndicator {
+    position: fixed;
+    bottom: 1rem;
+    right: 42vw;
+}
+
+.scrollDownIndicator span {
+    vertical-align: top;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0 1rem;
+}
+
+@media(max-width: 1056px) {
+    .scrollDownIndicator {
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    nav.navbar a img.logo {
+        width: 16rem;
+    }
+}  
