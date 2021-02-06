@@ -3,7 +3,7 @@ import styles from '../styles/SkillList.module.css'
 
 const SkillList = ({ title, content: { skillList } }) => (
     <div className={styles.skillListContainer}>
-        <h3>{title}</h3>
+        <h3 className={styles.cardTitle}>{title}</h3>
         <ul>{
         skillList.map(s => {
             const image = {...s.icon[0]}

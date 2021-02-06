@@ -6,10 +6,10 @@
     font-size: 1.5rem;
     border-radius: 5px;
     padding: 1rem 2rem;
-    margin: 3rem 0;
+    margin: 3rem 1rem;
 }
 
-.skillListContainer h3 {
+.cardTitle {
     display: inline-block;
     margin: 1rem 0 0.75rem 1.5rem;
     font-size: 2rem;
@@ -30,10 +30,11 @@
     vertical-align: middle;
     text-align: justify;
 }
-/* 
+
 @media(max-width: 1350px) {
-    .skillListContainer h3 {
-        font-size: 1.5rem;
+    .cardTitle {
+        font-size: 1.5rem !important;
+        margin-left: 0;
     }
 }
 
@@ -52,10 +53,13 @@
         font-size: 1.5rem;
         max-width: 80%;
         width: 400px;
+        padding-bottom: 2rem;
     }
 
-    .skillListContainer h3 {
-        font-size: 2rem;
+    .cardTitle {
+        font-size: 2.5rem;
+        margin-left: 1.75rem;
+
     }
 }
 
@@ -63,8 +67,4 @@
     .skillListContainer {
         font-size: 1rem;
     }
-
-    .skillListContainer h3 {
-        font-size: 1.5rem;
-    }
-} */
+}
