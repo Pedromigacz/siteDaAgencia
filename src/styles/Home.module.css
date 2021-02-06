@@ -17,3 +17,39 @@ div.homeContainer h1.mainDisclaimer {
     color: #89023E;
     font-weight: 400;
 }
+
+@media(max-width: 1200px) {
+    div.homeContainer h1.mainDisclaimer {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 580px) {
+    div.homeContainer h1.mainDisclaimer {
+        font-size: 2rem;
+    }
+    .homeContainer h1 strong {
+        margin-right: 10rem;
+    }
+}
+
+@media(max-width: 480px) {
+    div.homeContainer h1.mainDisclaimer {
+        font-size: 1.75rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media(max-width: 400px) {
+    div.homeContainer h1.mainDisclaimer {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-height: 750px) {
+    div.homeContainer h1.mainDisclaimer {
+        margin-top: 10rem;
+    }
+}
+
