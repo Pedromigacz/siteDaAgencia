@@ -1,0 +1,51 @@
+.ContactInfoContainer {
+    width: 60%;
+    margin: 0 auto 2rem auto;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: inherit;
+}
+
+.ContactInfoContainer span {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.orSeparator {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.orSeparator span {
+    background: #f4f4f4;
+    padding: 0 4px;
+    position: relative;
+    z-index: 2;
+}
+
+.orSeparator hr {
+    position: relative;
+    bottom: 1.25rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+
+@media(max-width: 1500px) {
+    .ContactInfoContainer {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media(max-height: 650px) {
+    .ContactInfoContainer {
+        font-size: 1.4rem;
+        margin: 0 auto 1rem auto;
+    }
+
+}
