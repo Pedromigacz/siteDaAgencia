@@ -5,17 +5,21 @@ import {
   AboutUs,
   SkillListsContainer,
   Footer,
-  Navbar
+  Navbar,
+  SEO
 } from '../components'
 
+import ContactContextProvider from '../contexts/ContactContext.js'
+
 const IndexPage = () => (
-  <div>
+  <ContactContextProvider>
+    <SEO />
     <Navbar />
     <Home />
     <AboutUs />
     <SkillListsContainer />
     <Footer />
-  </div>
+  </ContactContextProvider>
 )
 
 export default IndexPage
