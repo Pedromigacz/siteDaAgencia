@@ -6,8 +6,6 @@ import ContactInfo from './ContactInfo.jsx'
 import { motion } from 'framer-motion'
 import { ContactContext } from '../contexts/ContactContext.js'
 
-console.log(useContext)
-console.log('*********************')
 
 const backDropVariants = {
     hidden: {

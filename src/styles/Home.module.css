@@ -53,3 +53,9 @@ div.homeContainer h1.mainDisclaimer {
     }
 }
 
+@media(max-height: 580px) {
+    div.homeContainer h1.mainDisclaimer {
+        margin-top: 6rem;
+    }
+}
+
