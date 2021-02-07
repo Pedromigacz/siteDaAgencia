@@ -49,3 +49,9 @@
     }
 
 }
+
+@media(max-height: 640px) {
+    .orSeparator {
+        font-size: 1.5rem;
+    }
+}
